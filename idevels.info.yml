@@ -1,0 +1,49 @@
+name: Idevels
+type: profile
+description: 'Build a custom site without pre-configured functionality. Suitable for advanced users.'
+version: VERSION
+core: 8.x
+dependencies:
+  - automated_cron
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - dblog
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - entity_reference
+  - field_ui
+  - file
+  - help
+  - image
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - shortcut
+  - taxonomy
+  - telephone
+  - toolbar
+  - views
+  - views_ui
+# Idevels specific modules.
+#  - address
+#  - captcha
+#  - ds_extras
+#  - exclude_node_title
+#  - idevels_proconsort_library
+#  - idevels_proconsort_marketplace
+#  - idevels_proconsort_utility
+#  - idevels_proconsort_vendor
+#  - masquerade
+#  - password_policy
+#  - password_policy_characters
+#  - password_policy_length
+themes:
+  - seven
+  - bartik
